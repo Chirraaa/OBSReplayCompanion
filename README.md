@@ -1,6 +1,6 @@
 # OBS Clip Recorder
 
-![App Icon](src/icon.png)
+![App Icon](src/logo.png)
 
 A minimalistic and efficient application for OBS Studio, designed to capture your best gaming moments with a simple hotkey, without compromising performance.
 
@@ -8,7 +8,6 @@ A minimalistic and efficient application for OBS Studio, designed to capture you
 
 The primary goal of OBS Clip Recorder is to provide a **lightweight, fast, and stable solution for saving instant gameplay clips**. Unlike some built-in or third-party clipping tools, this application is optimized to minimize performance impact, ensuring a smooth experience for both streaming and recording.
 
-\<br\>
 
 ## 🚀 Key Features
 
@@ -17,7 +16,6 @@ The primary goal of OBS Clip Recorder is to provide a **lightweight, fast, and s
   * **Game-Specific Folders:** Clips are automatically organized into folders based on the game you're playing, making them easy to find.
   * **Simple & Intuitive UI:** A clean and straightforward user interface that integrates seamlessly with your OBS setup.
 
-\<br\>
 
 ## 🛠️ How to Use and Setup
 
@@ -46,7 +44,6 @@ For developers or those who want to compile their own version of the application
 
 4.  Once the build is complete, you can find the necessary files in the `build/rundir/` directory. Proceed with the installation steps from the "Download and Installation" section above, using your newly compiled files.
 
-\<br\>
 
 ## ⚙️ Behind the Scenes: Optimizations
 
@@ -56,7 +53,6 @@ This application is built with a focus on performance and reliability. Here are 
   * **Direct Buffer Access:** Instead of using complex video recording pipelines, the app directly accesses the OBS buffer to save clips, which is incredibly fast and efficient.
   * **Minimal Overhead:** The code is written in C++ and uses OBS's core APIs directly, ensuring that the application only uses the resources it absolutely needs.
 
-\<br\>
 
 ## 🤝 Contributing
 
