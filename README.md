@@ -1,6 +1,6 @@
 # OBS Clip Recorder
 
-![App Icon](src/icon.png)
+![App Icon](src/logo.png)
 
 A minimalistic and efficient application for OBS Studio, designed to capture your best gaming moments with a simple hotkey, without compromising performance.
 
