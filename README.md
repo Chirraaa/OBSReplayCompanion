@@ -1,4 +1,4 @@
-# OBS Clip Recorder
+# OBS Replay Companion
 
 ![App Icon](src/logo.png)
 
@@ -6,7 +6,7 @@ A minimalistic and efficient application for OBS Studio, designed to capture you
 
 ## 🎯 Our Goal
 
-The primary goal of OBS Clip Recorder is to provide a **lightweight, fast, and stable solution for saving instant gameplay clips**. Unlike some built-in or third-party clipping tools, this application is optimized to minimize performance impact, ensuring a smooth experience for both streaming and recording.
+The primary goal of OBS Replay Companion is to provide a **lightweight, fast, and stable solution for saving instant gameplay clips**. Unlike some built-in or third-party clipping tools, this application is optimized to minimize performance impact, ensuring a smooth experience for both streaming and recording.
 
 
 ## 🚀 Key Features
@@ -19,7 +19,7 @@ The primary goal of OBS Clip Recorder is to provide a **lightweight, fast, and s
 
 ## 🛠️ How to Use and Setup
 
-Follow these simple steps to get started with OBS Clip Recorder.
+Follow these simple steps to get started with OBS Replay Companion.
 
 ### 1\. Download and Installation (Pre-built)
 
