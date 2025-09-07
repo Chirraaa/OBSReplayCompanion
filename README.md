@@ -38,11 +38,25 @@ For developers or those who want to compile their own version of the application
 
 1.  **Follow the official OBS Studio build guide for Windows** to set up your environment and dependencies. You can find the guide here: [Build Instructions for Windows](https://github.com/obsproject/obs-studio/wiki/build-instructions-for-windows).
 
-2.  After you've set up the build environment and cloned the main OBS repository, **copy this project's source files into a new folder named `obs-clip-recorder` inside the `external` folder** of the OBS Studio source tree. Your file structure should look like this:
+2.  After you've set up the build environment and cloned the main OBS repository, move your OBS build inside the `external` folder** of the OBS Studio source tree. Your file structure should look like this:
 
-3.  Follow the rest of the OBS build guide to compile the OBS Studio project. The clip recorder will be built as part of the process.
+```code
+obs-replay-companion/
+├── build/
+├── external/
+│   ├── glfw/
+│   ├── obs-studio/ <-- Your OBS build goes here
+├── src/
+│   ├── AudioDeviceFetcher.cpp
+│   ├── MainWindow.h
+│   └── ... (your project files)
+├── ...
+```
 
-4.  Once the build is complete, you can find the necessary files in the `build/rundir/` directory. Proceed with the installation steps from the "Download and Installation" section above, using your newly compiled files.
+
+3.  Follow the rest of the OBS build guide to compile the OBS Studio project.
+
+4.  Once the build is complete, you can find the necessary files in the `build/rundir/` directory. Proceed with building the obs replay companion files and you'll be all set by finding your built files at `obs-replay-companion/build/debug`.
 
 
 ## ⚙️ Behind the Scenes: Optimizations
@@ -56,4 +70,4 @@ This application is built with a focus on performance and reliability. Here are 
 
 ## 🤝 Contributing
 
-This is an open-source project, and contributions are welcome\! If you'd like to help improve OBS Clip Recorder, please feel free to open an issue or submit a pull request on GitHub.
+This is an open-source project, and contributions are welcome\! If you'd like to help improve OBS Replay Companion, please feel free to open an issue or submit a pull request on GitHub.
