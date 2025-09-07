@@ -41,7 +41,7 @@ For developers or those who want to compile their own version of the application
 2.  After you've set up the build environment and cloned the main OBS repository, move your OBS build inside the `external` folder** of the OBS Studio source tree. Your file structure should look like this:
 
 ```code
-obs-replay-companion/
+OBSReplayCompanion/
 ├── build/
 ├── external/
 │   ├── glfw/
@@ -56,7 +56,7 @@ obs-replay-companion/
 
 3.  Follow the rest of the OBS build guide to compile the OBS Studio project.
 
-4.  Once the build is complete, you can find the necessary files in the `build/rundir/` directory. Proceed with building the obs replay companion files and you'll be all set by finding your built files at `obs-replay-companion/build/debug`.
+4.  Once the build is complete, you can find the necessary files in the `build/rundir/` directory. Proceed with building the obs replay companion files and you'll be all set by finding your built files at `OBSReplayCompanion/build/debug`.
 
 
 ## ⚙️ Behind the Scenes: Optimizations
