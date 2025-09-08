@@ -25,7 +25,7 @@ Follow these simple steps to get started with OBS Replay Companion.
 
 If you're a user who just wants to get started, this is the easiest way.
 
-1.  **Download the latest pre-built package** from the [Releases](https://www.google.com/search?q=https://github.com/Chirraaa/OBSReplayCompanion/releases) page.
+1.  **Download the latest pre-built package** from the [Releases](https://github.com/Chirraaa/OBSReplayCompanion/releases) page.
 2.  **Extract all files** from the downloaded `.zip` and **copy them directly into your main OBS Studio installation folder**. The default location is `C:\Program Files\obs-studio`.
 3.  **Navigate to `C:\Program Files\obs-studio\obs-plugins\64bit`** and **create a new folder** named `saved`.
 4.  **Move the following two files** into this new `saved` folder:
